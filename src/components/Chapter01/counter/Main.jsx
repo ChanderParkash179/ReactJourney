@@ -17,10 +17,16 @@ function Main() {
     <>
       <div className={`${styles.container} text-center border`}>
         <h1 className="lead">{counter}</h1>
-        <button className="btn btn-primary" onClick={addCounter}>
+        <button
+          className="border p-2 rounded bg-green-600 text-white"
+          onClick={addCounter}
+        >
           Add
         </button>
-        <button className="btn btn-danger" onClick={removeCounter}>
+        <button
+          className="border p-2 rounded bg-red-600 text-white"
+          onClick={removeCounter}
+        >
           Remove
         </button>
       </div>
