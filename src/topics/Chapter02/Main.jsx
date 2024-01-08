@@ -1,9 +1,11 @@
-import UseState from "./hooks/UseState/UseState";
+// import UseState from "./hooks/UseState/UseState";
+import UseEffect from "./hooks/UseEffect/UseEffect";
 
 function Main() {
   return (
     <>
-      <UseState />
+      {/* <UseState /> */}
+      <UseEffect />
     </>
   );
 }
