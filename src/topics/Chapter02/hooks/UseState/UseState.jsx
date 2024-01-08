@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Main() {
+function UseState() {
   let [counter, setCounter] = useState(0);
 
   const addCounter = () => {
@@ -32,4 +32,4 @@ function Main() {
     </>
   );
 }
-export default Main;
+export default UseState;
