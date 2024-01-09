@@ -3,7 +3,8 @@
 // import Main from "./topics/Chapter02/Main";
 
 // import Project from "./projects/backgroundChanger/Project";
-import Project from "./projects/passwordGenerator/Project";
+// import Project from "./projects/passwordGenerator/Project";
+import Project from "./projects/currencyConvertor/Project";
 
 function App() {
   return (
