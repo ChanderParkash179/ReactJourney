@@ -14,6 +14,7 @@ import Main from "./topics/Chapter03/router-pages/NavLink/Main";
 import { createBrowserRouter } from "react-router-dom";
 import Error from "./topics/Chapter03/router-pages/Error/Error";
 import UseNavigate from "./topics/Chapter02/hooks/UseNavigate/UseNavigate";
+import GitMain from "./projects/githubDetail/GitMain";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
   {
     path: "/nav",
     element: <UseNavigate />,
+  },
+  {
+    path: "/git/:username",
+    element: <GitMain />,
   },
   {
     path: "*",
