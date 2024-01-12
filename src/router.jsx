@@ -12,6 +12,7 @@ import Main from "./topics/Chapter03/router-pages/NavLink/Main";
 
 // package imports
 import { createBrowserRouter } from "react-router-dom";
+import Error from "./topics/Chapter03/router-pages/Error/Error";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "*",
+    element: <Error />,
   },
 ]);
 
