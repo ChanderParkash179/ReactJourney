@@ -1,10 +1,10 @@
-import NavBar from "../Component/NavBar";
+// import NavBar from "../Component/NavBar";
 
 const About = () => {
   return (
     <>
       <header>
-        <NavBar />
+        {/* <NavBar /> */}
         <section>
           <h1>I am About Page</h1>
         </section>

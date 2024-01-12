@@ -1,10 +1,10 @@
-import NavBar from "../Component/NavBar";
+// import NavBar from "../Component/NavBar";
 
 const Contact = () => {
   return (
     <>
       <header>
-        <NavBar />
+        {/* <NavBar /> */}
         <section>
           <h1>I am Contact Page</h1>
         </section>
