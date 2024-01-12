@@ -13,6 +13,7 @@ import Main from "./topics/Chapter03/router-pages/NavLink/Main";
 // package imports
 import { createBrowserRouter } from "react-router-dom";
 import Error from "./topics/Chapter03/router-pages/Error/Error";
+import UseNavigate from "./topics/Chapter02/hooks/UseNavigate/UseNavigate";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
     ],
+  },
+  {
+    path: "/nav",
+    element: <UseNavigate />,
   },
   {
     path: "*",
