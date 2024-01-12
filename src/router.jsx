@@ -1,8 +1,8 @@
 // files imports
 import WebMain from "./topics/Chapter03/WebMain";
-import Home from "./topics/Chapter03/router-pages/Home";
-import About from "./topics/Chapter03/router-pages/About";
-import Contact from "./topics/Chapter03/router-pages/Contact";
+import Home from "./topics/Chapter03/router-pages/Link/Home";
+import About from "./topics/Chapter03/router-pages/Link/About";
+import Contact from "./topics/Chapter03/router-pages/Link/Contact";
 
 // package imports
 import { createBrowserRouter } from "react-router-dom";
