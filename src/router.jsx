@@ -17,6 +17,7 @@ import UseNavigate from "./topics/Chapter02/hooks/UseNavigate/UseNavigate";
 import GitMain, {
   loaderfun as gitloader,
 } from "./projects/githubDetail/GitMain";
+import MainApp from "./topics/Chapter04/MainApp";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/app",
+        element: <MainApp />,
       },
     ],
   },
