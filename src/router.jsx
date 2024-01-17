@@ -18,6 +18,7 @@ import GitMain, {
   loaderfun as gitloader,
 } from "./projects/githubDetail/GitMain";
 import MainApp from "./topics/Chapter04/MainApp";
+import MainTodo from "./projects/todo/MainTodo";
 
 const router = createBrowserRouter([
   {
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "/app",
         element: <MainApp />,
+      },
+      {
+        path: "/todo",
+        element: <MainTodo />,
       },
     ],
   },
