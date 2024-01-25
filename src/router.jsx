@@ -19,6 +19,7 @@ import GitMain, {
 } from "./projects/githubDetail/GitMain";
 import MainApp from "./topics/Chapter04/MainApp";
 import MainTodo from "./projects/todo/MainTodo";
+import FetchAxios from "./topics/Axios/FetchAxios";
 
 const router = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
         element: <MainTodo />,
       },
     ],
+  },
+  {
+    path: "/axios/fetch",
+    element: <FetchAxios />,
   },
   {
     path: "/nav",
