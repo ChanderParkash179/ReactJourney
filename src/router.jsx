@@ -20,6 +20,7 @@ import GitMain, {
 import MainApp from "./topics/Chapter04/MainApp";
 import MainTodo from "./projects/todo/MainTodo";
 import FetchAxios from "./topics/Axios/FetchAxios";
+import PostAxios from "./topics/Axios/PostAxios";
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
   {
     path: "/axios/fetch",
     element: <FetchAxios />,
+  },
+  {
+    path: "/axios/post",
+    element: <PostAxios />,
   },
   {
     path: "/nav",
